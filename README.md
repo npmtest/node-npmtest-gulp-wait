@@ -1,4 +1,7 @@
-# test coverage for  [gulp-wait (v0.0.2)](https://github.com/bpartridge83/gulp-wait)  [![npm package](https://img.shields.io/npm/v/npmtest-gulp-wait.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-gulp-wait) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-gulp-wait.svg)](https://travis-ci.org/npmtest/node-npmtest-gulp-wait)
+# npmtest-gulp-wait
+
+#### basic test coverage for  [gulp-wait (v0.0.2)](https://github.com/bpartridge83/gulp-wait)  [![npm package](https://img.shields.io/npm/v/npmtest-gulp-wait.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-gulp-wait) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-gulp-wait.svg)](https://travis-ci.org/npmtest/node-npmtest-gulp-wait)
+
 #### A gulp task that inserts a delay before calling the next function in a chain.
 
 [![NPM](https://nodei.co/npm/gulp-wait.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/gulp-wait)
@@ -7,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-gulp-wait/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-gulp-wait/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-gulp-wait/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-gulp-wait/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-gulp-wait/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-gulp-wait/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-gulp-wait/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-gulp-wait/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-gulp-wait/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-gulp-wait/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-gulp-wait/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-gulp-wait/build/coverage.html/index.html)
 
@@ -72,7 +75,8 @@
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "version": "0.0.2"
+    "version": "0.0.2",
+    "bin": {}
 }
 ```
 
